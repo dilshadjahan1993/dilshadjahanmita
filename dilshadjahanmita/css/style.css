@@ -1,0 +1,349 @@
+body{
+	background-color: #E5E5E5;
+}
+/*Header Css*/
+.top-header{
+	background-color: #30E3CA;
+	text-align: center;
+	border-radius: 5px;
+
+
+	
+
+	
+}
+
+
+
+/*Nav-bar Css*/
+
+.top-header ul {
+				list-style-type: none;
+				background-color: transparent;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				display: inline-table;
+				position: middle;
+
+				
+
+			}
+			.top-header  li {
+				float: left;
+				display: inline;
+				margin: 0px 12px;
+
+			
+			}
+			.top-header a {
+				text-decoration: none;
+				color: white;
+				padding: 16px;
+				display: block;
+				text-align: center;
+				border-radius: 5px;
+				border: 1px;
+
+			}
+			.top-header li a:link {
+				
+				text-decoration: none;
+				}
+			.top-header li a:visited {
+				
+				text-decoration: none;
+				}
+
+			.top-header li a:hover {
+				background-color: #E4F9F5;
+				text-decoration: none;
+				color: black;
+				
+			}
+			.top-header li a:active {
+				background-color: green;
+				text-decoration: none;
+				color: white;
+			}
+
+
+			
+
+
+.dropdown {
+    display: inline-block;
+	position: absolute;
+	
+}
+
+.dropdown-content {
+    display: none;
+ position:relative;
+    background-color: #f9f9f9;
+   
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*about me*/
+.about-me{
+	background-color: white;
+
+
+}
+.profile{
+	background-image: url("../images/1.jpg");
+	padding-bottom: 20px;
+	
+	border-radius: 5px;
+	
+    
+}
+.profile img{
+	width: 140px;
+	border: 1px;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+
+}
+.profile h2, p{
+	color: white;
+	text-align: center;
+}
+ .profile{
+ 	text-align: center;
+ }
+.profile ul {
+				list-style-type: none;
+				background-color: transparent;
+				margin: auto;
+				padding: 0;
+				overflow: hidden;
+				display: inline-block;
+				position: middle;	
+				
+			}
+			.profile li {
+				float: left;
+				display: inline;
+				margin: 0px 5px;
+
+			
+			}
+			.profile a {
+				text-decoration: none;
+				color: white;
+				display: block;
+				text-align: center;
+				font-size: 30px;
+
+			}
+			
+			.profile li a:hover {
+				opacity: 0.7;
+			
+				text-decoration: none;
+				color: white;
+				
+			}
+			
+
+.about-image{
+	width: 140px;
+	border: 1px;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.about{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+}
+.about-paragraph{
+	color: black;
+	text-align: justify;
+	margin: 10px;
+}
+.paragraph-style{
+	color: #5DCBE6;
+	text-align: justify;
+	margin: 10px;
+}
+.bottom-border{
+	border-bottom: 2px dashed black;
+	margin: 10px;
+}
+.about h2{
+	margin: 15px 5px 0px 30px;
+}
+.about table{
+	margin: 10px 10px 10px 10px;
+	text-align: left;
+
+}
+.about td, tr{
+	padding: 5px 10px;
+
+
+}
+.about-signature{
+	height: 70px;
+	width: 110px;
+	display: block;
+	margin: auto;
+}
+
+/*Project section*/
+.project button{
+	width: 100px;
+	height: 35px;
+}
+.project img{
+	width: 100%;
+	border: 1px;
+
+
+	margin: auto;
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 15px;
+
+	}
+	.project{
+		background-color: white;
+		border-radius: 5px;
+		padding-bottom: 10px;
+	}
+
+/*Footer Section*/
+.footer{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+}
+.footer p{
+	margin-top: 5px;
+
+}
+
+.skill{
+	background-color: white;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+.education{
+	background-color: white;
+	border-radius: 5px;
+
+}
+.education-pera{
+	color: black;
+	text-align: justify;
+	margin: 10px;
+}
+.education h3{
+	margin: 10px;
+
+}
+.education i{
+		font-size: 80px;
+		margin: 20px 10px ;
+}
+.education-div{
+	
+	margin: 10px 0px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.education-div-div{
+	border-right: 1px solid black;
+	height: 100%;
+}
+.education-div:hover{
+	
+	margin: 10px 0px;
+	background-color: #FFCD41;
+	border: 1px solid white;
+	border-radius: 5px;
+
+}
+.contact{
+	 background-color: white;
+	 border-radius: 5px;
+
+}
+.interest{
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	text-align: center; 
+
+
+}
+.interest p{
+	color: black;
+	text-align: justify;
+	margin: 10px 100px;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	
+
+
+}
+.interest p:hover{
+	
+	background-color: #FFCD41; 
+
+
+}
+
+
+
+
+}
+.interest table {
+
+	
+
+
+	
+}
+.interest td{
+	
+	
+	padding: 15px 40px;
+
+}
+.interest i{
+	font-size: 100px;
+}
+.interest td:nth-child(odd){
+	background-color: #FFCD41;
+}
+.interest td:first-child{
+border-radius: 10px 0px 0px 10px;
+
+}
+.interest td:last-child{
+border-radius: 0px 10px 10px 0px;
+
+}
